@@ -1,1 +1,1 @@
-echo "fazendo o build da aplicacao"
+wget http://10.100.0.199:8081/nexus/service/local/repositories/releases/content/helloworld/hellworld/1/hellworld-1.ear -O /wildfly/standalone/deployments/helloworld.ear
