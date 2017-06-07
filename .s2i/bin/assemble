@@ -1,2 +1,2 @@
 yum -y install wget
-wget http://34.203.26.237:8081/nexus/service/local/repositories/releases/content/hello-world/hello-world/1.5/hello-world-1.5.ear -O /wildfly/standalone/deployments/helloworld.ear
+wget http://34.203.26.237:8081/nexus/service/local/repositories/releases/content/hello-world/hello-world/1.0/hello-world-1.0.ear -O /wildfly/standalone/deployments/helloworld.ear
