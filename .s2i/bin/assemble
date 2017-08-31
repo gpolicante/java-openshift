@@ -1,8 +1,8 @@
 echo "Iniciando deploy de um EAR do JAVA"
 
-echo "Agora e a versao 1.5"
+echo "Agora e a versao 1.0"
 
-wget http://cloud.4linux.com.br:8081/nexus/service/local/repositories/releases/content/4linux/hello/1.5/hello-1.5.ear -O /wildfly/standalone/deployments/helloworld.ear
+wget http://cloud.4linux.com.br:8081/nexus/service/local/repositories/releases/content/4linux/helloworld/1.0/helloworld-1.0.ear -O /wildfly/standalone/deployments/helloworld.ear
 
 echo "Finalizando o deploy"
 echo "Good Bye!"
